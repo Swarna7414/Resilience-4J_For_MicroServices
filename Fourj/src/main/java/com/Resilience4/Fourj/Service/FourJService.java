@@ -38,13 +38,6 @@ public class FourJService {
         this.circuitBreaker = circuitBreakerRegistry.circuitBreaker("externalServiceCB");
     }
 
-//    @PostConstruct
-//    void watchCb(CircuitBreakerRegistry reg) {
-//        reg.circuitBreaker("externalServiceCB")
-//                .getEventPublisher()
-//                .onStateTransition(e -> logger.info("CB transition: {}", e.getStateTransition()));
-//    }
-
 
     public Mono<Object> hitRequest(){
 

@@ -1,0 +1,1032 @@
+2025-11-12T02:15:53.730-06:00  INFO 440 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 440 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T02:15:53.730-06:00 DEBUG 440 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T02:15:53.736-06:00  INFO 440 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T02:15:55.733-06:00  INFO 440 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T02:15:56.634-06:00  INFO 440 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T02:15:56.658-06:00  INFO 440 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T02:15:56.658-06:00  INFO 440 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T02:15:56.721-06:00  INFO 440 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T02:15:56.723-06:00  INFO 440 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2896 ms
+2025-11-12T02:15:59.553-06:00  INFO 440 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T02:15:59.653-06:00  INFO 440 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T02:15:59.676-06:00  INFO 440 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 6.8 seconds (process running for 7.666)
+2025-11-12T02:18:09.821-06:00  INFO 440 --- [Fourj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T02:18:09.822-06:00  INFO 440 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T02:18:09.823-06:00  INFO 440 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-12T02:21:27.806-06:00  INFO 440 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T02:21:27.819-06:00  INFO 440 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T02:21:34.970-06:00  INFO 6068 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 6068 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T02:21:34.974-06:00 DEBUG 6068 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T02:21:34.975-06:00  INFO 6068 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T02:21:36.849-06:00  INFO 6068 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T02:21:37.877-06:00  INFO 6068 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T02:21:37.907-06:00  INFO 6068 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T02:21:37.907-06:00  INFO 6068 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T02:21:37.972-06:00  INFO 6068 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T02:21:37.973-06:00  INFO 6068 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2907 ms
+2025-11-12T02:21:40.804-06:00  INFO 6068 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T02:21:40.890-06:00  INFO 6068 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T02:21:40.919-06:00  INFO 6068 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 6.744 seconds (process running for 7.477)
+2025-11-12T02:35:52.430-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T02:35:52.431-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T02:35:52.434-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-12T02:35:52.546-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:35:54.104-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:35:55.711-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:35:56.938-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:35:57.968-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:35:58.998-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:36:00.319-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:36:21.930-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:36:22.971-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:02.353-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:04.714-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:05.810-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:06.881-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:07.981-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:32.938-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:34.456-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:35.673-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:51.188-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:53.071-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:37:54.211-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:16.646-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:21.883-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:38.005-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:39.297-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:40.411-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:41.355-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:42.362-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:38:43.373-06:00  INFO 6068 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T02:49:03.230-06:00  INFO 6068 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T02:49:03.236-06:00  INFO 6068 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T03:20:26.803-06:00  INFO 20944 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 20944 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T03:20:26.803-06:00 DEBUG 20944 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T03:20:26.803-06:00  INFO 20944 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T03:20:28.838-06:00  INFO 20944 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T03:20:29.755-06:00  INFO 20944 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T03:20:29.771-06:00  INFO 20944 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T03:20:29.771-06:00  INFO 20944 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T03:20:29.819-06:00  INFO 20944 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T03:20:29.819-06:00  INFO 20944 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2916 ms
+2025-11-12T03:20:33.202-06:00  INFO 20944 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T03:20:33.315-06:00  INFO 20944 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T03:20:33.344-06:00  INFO 20944 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 7.371 seconds (process running for 8.083)
+2025-11-12T03:20:36.401-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T03:20:36.402-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T03:20:36.403-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-12T03:20:36.479-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:20:37.990-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:20:59.978-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:01.697-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:02.750-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:03.845-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:04.615-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:05.533-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:06.413-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:14.438-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:16.310-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:17.470-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:18.528-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:21:19.723-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:33:31.004-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:33:33.617-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:33:36.470-06:00  INFO 20944 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : appliction Hitted
+2025-11-12T03:33:40.801-06:00  INFO 20944 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T03:33:40.813-06:00  INFO 20944 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T03:33:57.138-06:00  INFO 23064 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 23064 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T03:33:57.140-06:00 DEBUG 23064 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T03:33:57.142-06:00  INFO 23064 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T03:33:59.485-06:00  INFO 23064 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T03:34:00.667-06:00  INFO 23064 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T03:34:00.688-06:00  INFO 23064 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T03:34:00.689-06:00  INFO 23064 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T03:34:00.751-06:00  INFO 23064 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T03:34:00.752-06:00  INFO 23064 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3520 ms
+2025-11-12T03:34:04.298-06:00  INFO 23064 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T03:34:04.426-06:00  INFO 23064 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T03:34:04.463-06:00  INFO 23064 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 8.381 seconds (process running for 9.735)
+2025-11-12T03:34:05.011-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T03:34:05.012-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T03:34:05.013-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-12T03:34:05.085-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:05.085786200 here
+2025-11-12T03:34:13.266-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:13.266065500 here
+2025-11-12T03:34:15.239-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:15.239764200 here
+2025-11-12T03:34:16.335-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:16.335566100 here
+2025-11-12T03:34:17.483-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:17.483784500 here
+2025-11-12T03:34:28.379-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:28.379891800 here
+2025-11-12T03:34:28.385-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:28.385178100 here
+2025-11-12T03:34:31.126-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:31.126817300 here
+2025-11-12T03:34:31.128-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:31.128807600 here
+2025-11-12T03:34:32.385-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:32.385358 here
+2025-11-12T03:34:32.387-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:32.387350400 here
+2025-11-12T03:34:33.873-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:33.873938700 here
+2025-11-12T03:34:33.875-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:33.875910300 here
+2025-11-12T03:34:34.974-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:34.974393500 here
+2025-11-12T03:34:34.981-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:34.981117100 here
+2025-11-12T03:34:36.015-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:36.015054200 here
+2025-11-12T03:34:37.016-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:37.016530300 here
+2025-11-12T03:34:37.973-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:37.973983200 here
+2025-11-12T03:34:39.153-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:39.153584400 here
+2025-11-12T03:34:40.270-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:40.270261100 here
+2025-11-12T03:34:41.278-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:41.278918500 here
+2025-11-12T03:34:42.203-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:42.203272900 here
+2025-11-12T03:34:43.123-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:43.123111800 here
+2025-11-12T03:34:44.115-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:44.115472700 here
+2025-11-12T03:34:45.038-06:00  INFO 23064 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:34:45.038847300 here
+2025-11-12T03:34:51.942-06:00  INFO 23064 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T03:34:51.946-06:00  INFO 23064 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T03:44:03.674-06:00  INFO 22844 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 22844 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T03:44:03.678-06:00 DEBUG 22844 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T03:44:03.682-06:00  INFO 22844 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T03:44:06.068-06:00  INFO 22844 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T03:44:07.094-06:00  INFO 22844 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T03:44:07.116-06:00  INFO 22844 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T03:44:07.116-06:00  INFO 22844 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T03:44:07.186-06:00  INFO 22844 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T03:44:07.186-06:00  INFO 22844 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3390 ms
+2025-11-12T03:44:11.046-06:00  INFO 22844 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T03:44:11.176-06:00  INFO 22844 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T03:44:11.213-06:00  INFO 22844 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 8.589 seconds (process running for 9.516)
+2025-11-12T03:44:17.887-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T03:44:17.887-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T03:44:17.890-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-12T03:44:17.965-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:17.965924300 here and this the hit 1
+2025-11-12T03:44:23.449-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:23.449442100 here and this the hit 2
+2025-11-12T03:44:24.822-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:24.822047200 here and this the hit 3
+2025-11-12T03:44:25.977-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:25.977173400 here and this the hit 4
+2025-11-12T03:44:27.022-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:27.022538300 here and this the hit 5
+2025-11-12T03:44:39.734-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:39.734178 here and this the hit 6
+2025-11-12T03:44:39.739-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:39.739449300 here
+2025-11-12T03:44:50.691-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:50.691706500 here and this the hit 7
+2025-11-12T03:44:50.694-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:50.694217800 here
+2025-11-12T03:44:53.982-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:53.982480300 here and this the hit 8
+2025-11-12T03:44:53.984-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:53.984905500 here
+2025-11-12T03:44:57.142-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:57.142134400 here and this the hit 9
+2025-11-12T03:44:57.144-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-10] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:57.144021900 here
+2025-11-12T03:44:59.058-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:59.058949700 here and this the hit 10
+2025-11-12T03:44:59.064-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:44:59.064806 here
+2025-11-12T03:45:00.685-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:45:00.685818700 here
+2025-11-12T03:45:06.081-06:00  INFO 22844 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T03:45:06.081027600 here
+2025-11-12T04:24:08.099-06:00  INFO 22844 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T04:24:08.111-06:00  INFO 22844 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T18:53:43.545-06:00  INFO 15584 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 15584 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T18:53:43.550-06:00 DEBUG 15584 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T18:53:43.551-06:00  INFO 15584 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T18:53:45.967-06:00  INFO 15584 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T18:53:47.052-06:00  INFO 15584 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T18:53:47.070-06:00  INFO 15584 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T18:53:47.071-06:00  INFO 15584 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T18:53:47.151-06:00  INFO 15584 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T18:53:47.151-06:00  INFO 15584 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3475 ms
+2025-11-12T18:53:50.354-06:00  INFO 15584 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T18:53:50.468-06:00  INFO 15584 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T18:53:50.503-06:00  INFO 15584 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 7.946 seconds (process running for 9.193)
+2025-11-12T18:54:26.603-06:00  INFO 15584 --- [Fourj] [http-nio-8080-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T18:54:26.604-06:00  INFO 15584 --- [Fourj] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T18:54:26.606-06:00  INFO 15584 --- [Fourj] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-12T18:54:26.707-06:00  WARN 15584 --- [Fourj] [http-nio-8080-exec-7] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
+
+java.lang.NoSuchMethodException: interface java.util.Map class com.Resilience4.Fourj.Service.UserServiceClient.fallbackGetB(class java.lang.String,class java.lang.Throwable)
+	at io.github.resilience4j.spring6.fallback.FallbackMethod.create(FallbackMethod.java:97) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:31) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:135) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:175) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:132) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T18:54:26.719-06:00  WARN 15584 --- [Fourj] [http-nio-8080-exec-7] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
+
+java.lang.NoSuchMethodException: interface java.util.Map class com.Resilience4.Fourj.Service.UserServiceClient.fallbackServiceAGetAsync(class java.lang.String,class java.lang.Throwable)
+	at io.github.resilience4j.spring6.fallback.FallbackMethod.create(FallbackMethod.java:97) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:31) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.timeLimiterAroundAdvice(TimeLimiterAspect.java:91) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.lambda$decorateCheckedSupplier$0(CircuitBreaker.java:71) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.executeCheckedSupplier(CircuitBreaker.java:739) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.defaultHandling(CircuitBreakerAspect.java:179) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.proceed(CircuitBreakerAspect.java:126) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.lambda$circuitBreakerAroundAdvice$0(CircuitBreakerAspect.java:108) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:135) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:175) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:132) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T18:54:26.737-06:00 ERROR 15584 --- [Fourj] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.github.resilience4j.spring6.timelimiter.configure.IllegalReturnTypeException: java.util.Map com.Resilience4.Fourj.Service.UserServiceClient#hitServiceAWithPost has unsupported by @TimeLimiter return type. CompletionStage expected.] with root cause
+
+io.github.resilience4j.spring6.timelimiter.configure.IllegalReturnTypeException: java.util.Map com.Resilience4.Fourj.Service.UserServiceClient#hitServiceAWithPost has unsupported by @TimeLimiter return type. CompletionStage expected.
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.proceed(TimeLimiterAspect.java:106) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.lambda$timeLimiterAroundAdvice$0(TimeLimiterAspect.java:90) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.timeLimiterAroundAdvice(TimeLimiterAspect.java:91) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.lambda$decorateCheckedSupplier$0(CircuitBreaker.java:71) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.executeCheckedSupplier(CircuitBreaker.java:739) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.defaultHandling(CircuitBreakerAspect.java:179) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.proceed(CircuitBreakerAspect.java:126) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.lambda$circuitBreakerAroundAdvice$0(CircuitBreakerAspect.java:108) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:135) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:175) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:132) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T18:54:31.701-06:00  INFO 15584 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T18:54:31.708-06:00  INFO 15584 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T18:54:38.827-06:00  INFO 9544 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 9544 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T18:54:38.830-06:00 DEBUG 9544 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T18:54:38.831-06:00  INFO 9544 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T18:54:40.722-06:00  INFO 9544 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T18:54:41.739-06:00  INFO 9544 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T18:54:41.768-06:00  INFO 9544 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T18:54:41.768-06:00  INFO 9544 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T18:54:41.839-06:00  INFO 9544 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T18:54:41.839-06:00  INFO 9544 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2912 ms
+2025-11-12T18:54:52.515-06:00  INFO 9544 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T18:54:52.661-06:00  INFO 9544 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T18:54:52.697-06:00  INFO 9544 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 14.671 seconds (process running for 16.229)
+2025-11-12T18:54:53.139-06:00  INFO 9544 --- [Fourj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T18:54:53.139-06:00  INFO 9544 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T18:54:53.141-06:00  INFO 9544 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-12T18:54:55.796-06:00  WARN 9544 --- [Fourj] [http-nio-8080-exec-2] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
+
+java.lang.NoSuchMethodException: interface java.util.Map class com.Resilience4.Fourj.Service.UserServiceClient.fallbackGetB(class java.lang.String,class java.lang.Throwable)
+	at io.github.resilience4j.spring6.fallback.FallbackMethod.create(FallbackMethod.java:97) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:31) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:135) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:175) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:132) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T18:54:55.805-06:00  WARN 9544 --- [Fourj] [http-nio-8080-exec-2] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
+
+java.lang.NoSuchMethodException: interface java.util.Map class com.Resilience4.Fourj.Service.UserServiceClient.fallbackServiceAGetAsync(class java.lang.String,class java.lang.Throwable)
+	at io.github.resilience4j.spring6.fallback.FallbackMethod.create(FallbackMethod.java:97) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:31) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.timeLimiterAroundAdvice(TimeLimiterAspect.java:91) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.lambda$decorateCheckedSupplier$0(CircuitBreaker.java:71) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.executeCheckedSupplier(CircuitBreaker.java:739) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.defaultHandling(CircuitBreakerAspect.java:179) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.proceed(CircuitBreakerAspect.java:126) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.lambda$circuitBreakerAroundAdvice$0(CircuitBreakerAspect.java:108) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:135) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:175) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:132) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T18:54:55.822-06:00 ERROR 9544 --- [Fourj] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: io.github.resilience4j.spring6.timelimiter.configure.IllegalReturnTypeException: java.util.Map com.Resilience4.Fourj.Service.UserServiceClient#hitServiceAWithPost has unsupported by @TimeLimiter return type. CompletionStage expected.] with root cause
+
+io.github.resilience4j.spring6.timelimiter.configure.IllegalReturnTypeException: java.util.Map com.Resilience4.Fourj.Service.UserServiceClient#hitServiceAWithPost has unsupported by @TimeLimiter return type. CompletionStage expected.
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.proceed(TimeLimiterAspect.java:106) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.lambda$timeLimiterAroundAdvice$0(TimeLimiterAspect.java:90) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.timelimiter.configure.TimeLimiterAspect.timeLimiterAroundAdvice(TimeLimiterAspect.java:91) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.lambda$decorateCheckedSupplier$0(CircuitBreaker.java:71) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.circuitbreaker.CircuitBreaker.executeCheckedSupplier(CircuitBreaker.java:739) ~[resilience4j-circuitbreaker-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.defaultHandling(CircuitBreakerAspect.java:179) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.proceed(CircuitBreakerAspect.java:126) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.lambda$circuitBreakerAroundAdvice$0(CircuitBreakerAspect.java:108) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCheckedSupplier$1(Retry.java:135) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCheckedSupplier(Retry.java:350) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleDefaultJoinPoint(RetryAspect.java:175) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:132) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T18:58:49.933-06:00  INFO 9544 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T18:58:49.947-06:00  INFO 9544 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T19:08:19.242-06:00  INFO 20092 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 20092 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T19:08:19.245-06:00 DEBUG 20092 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T19:08:19.246-06:00  INFO 20092 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T19:08:21.068-06:00  INFO 20092 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T19:08:22.076-06:00  INFO 20092 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T19:08:22.102-06:00  INFO 20092 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T19:08:22.103-06:00  INFO 20092 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T19:08:22.177-06:00  INFO 20092 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T19:08:22.178-06:00  INFO 20092 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2832 ms
+2025-11-12T19:08:25.355-06:00  INFO 20092 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T19:08:25.493-06:00  INFO 20092 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T19:08:25.601-06:00  INFO 20092 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 7.229 seconds (process running for 8.543)
+2025-11-12T19:08:25.606-06:00  INFO 20092 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T19:08:25.627-06:00  INFO 20092 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T19:09:14.892-06:00  INFO 18192 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 18192 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T19:09:14.895-06:00 DEBUG 18192 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T19:09:14.896-06:00  INFO 18192 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T19:09:16.731-06:00  INFO 18192 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T19:09:17.705-06:00  INFO 18192 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T19:09:17.726-06:00  INFO 18192 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T19:09:17.727-06:00  INFO 18192 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T19:09:17.806-06:00  INFO 18192 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T19:09:17.806-06:00  INFO 18192 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2806 ms
+2025-11-12T19:09:23.815-06:00  INFO 18192 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T19:09:23.933-06:00  INFO 18192 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T19:09:23.964-06:00  INFO 18192 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 9.876 seconds (process running for 10.86)
+2025-11-12T19:09:28.622-06:00  INFO 18192 --- [Fourj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T19:09:28.623-06:00  INFO 18192 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T19:09:28.625-06:00  INFO 18192 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-12T19:09:28.706-06:00  WARN 18192 --- [Fourj] [http-nio-8080-exec-1] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
+
+java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture class com.Resilience4.Fourj.Service.UserServiceClient.fallbackGetB(class java.lang.String,class java.lang.Throwable)
+	at io.github.resilience4j.spring6.fallback.FallbackMethod.create(FallbackMethod.java:97) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:31) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$handleJoinPointCompletableFuture$1(RetryAspect.java:188) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry$AsyncRetryBlock.run(Retry.java:551) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCompletionStage$0(Retry.java:115) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCompletionStage(Retry.java:395) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleJoinPointCompletableFuture(RetryAspect.java:186) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:123) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T19:09:28.722-06:00  INFO 18192 --- [Fourj] [http-nio-8080-exec-1] c.R.Fourj.Service.UserServiceClient      : application has been hittied 2025-11-12T19:09:28.721711 here
+2025-11-12T19:09:39.800-06:00  WARN 18192 --- [Fourj] [pool-3-thread-1] c.R.Fourj.Service.UserServiceClient      : FallBack Service has been activated at 2025-11-12T19:09:39.800184100 reason of java.util.concurrent.TimeoutException: TimeLimiter 'externalServiceTL' recorded a timeout exception.
+2025-11-12T19:10:50.490-06:00  WARN 18192 --- [Fourj] [http-nio-8080-exec-5] i.g.r.spring6.fallback.FallbackExecutor  : No fallback method match found
+
+java.lang.NoSuchMethodException: class java.util.concurrent.CompletableFuture class com.Resilience4.Fourj.Service.UserServiceClient.fallbackGetB(class java.lang.String,class java.lang.Throwable)
+	at io.github.resilience4j.spring6.fallback.FallbackMethod.create(FallbackMethod.java:97) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:31) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.circuitbreaker.configure.CircuitBreakerAspect.circuitBreakerAroundAdvice(CircuitBreakerAspect.java:109) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.12.jar:6.2.12]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$handleJoinPointCompletableFuture$1(RetryAspect.java:188) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry$AsyncRetryBlock.run(Retry.java:551) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.lambda$decorateCompletionStage$0(Retry.java:115) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.retry.Retry.executeCompletionStage(Retry.java:395) ~[resilience4j-retry-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.handleJoinPointCompletableFuture(RetryAspect.java:186) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.proceed(RetryAspect.java:123) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.lambda$retryAroundAdvice$0(RetryAspect.java:116) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.fallback.FallbackExecutor.execute(FallbackExecutor.java:37) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at io.github.resilience4j.spring6.retry.configure.RetryAspect.retryAroundAdvice(RetryAspect.java:117) ~[resilience4j-spring6-2.2.0.jar:2.2.0]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.12.jar:6.2.12]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.12.jar:6.2.12]
+	at com.Resilience4.Fourj.Service.UserServiceClient$$SpringCGLIB$$0.hitServiceAWithPost(<generated>) ~[classes/:na]
+	at com.Resilience4.Fourj.Controller.ResTControllerAPI.hittwoA(ResTControllerAPI.java:30) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.12.jar:6.2.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.48.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.12.jar:6.2.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-11-12T19:10:50.492-06:00  INFO 18192 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : application has been hittied 2025-11-12T19:10:50.492516200 here
+2025-11-12T19:22:19.686-06:00  INFO 18192 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T19:22:19.686-06:00  INFO 18192 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T19:34:21.080-06:00  INFO 22312 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 22312 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T19:34:21.087-06:00 DEBUG 22312 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T19:34:21.087-06:00  INFO 22312 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T19:34:22.971-06:00  INFO 22312 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T19:34:24.118-06:00  INFO 22312 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T19:34:24.150-06:00  INFO 22312 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T19:34:24.150-06:00  INFO 22312 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T19:34:24.233-06:00  INFO 22312 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T19:34:24.234-06:00  INFO 22312 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3057 ms
+2025-11-12T19:34:27.153-06:00  INFO 22312 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T19:34:27.283-06:00  INFO 22312 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T19:34:27.311-06:00  INFO 22312 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 7.124 seconds (process running for 7.962)
+2025-11-12T19:34:50.594-06:00  INFO 22312 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T19:34:50.594-06:00  INFO 22312 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T19:38:00.286-06:00  INFO 17928 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 17928 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T19:38:00.291-06:00 DEBUG 17928 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T19:38:00.293-06:00  INFO 17928 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T19:38:02.348-06:00  INFO 17928 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T19:38:03.280-06:00  INFO 17928 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T19:38:03.312-06:00  INFO 17928 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T19:38:03.312-06:00  INFO 17928 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T19:38:03.359-06:00  INFO 17928 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T19:38:03.359-06:00  INFO 17928 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2949 ms
+2025-11-12T19:38:06.484-06:00  INFO 17928 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T19:38:06.578-06:00  INFO 17928 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T19:38:06.609-06:00  INFO 17928 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 7.14 seconds (process running for 7.868)
+2025-11-12T19:38:43.044-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T19:38:43.044-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T19:38:43.046-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-12T19:38:43.086-06:00  WARN 17928 --- [Fourj] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-11-12T19:38:48.089-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:38:48.089829300 here and this the hit 1
+2025-11-12T19:38:49.880-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-5] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:38:49.880988100 here and this the hit 2
+2025-11-12T19:38:51.810-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-4] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:38:51.810987100 here and this the hit 3
+2025-11-12T19:38:56.503-06:00  INFO 17928 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:38:56.503604800 here and this the hit 4
+2025-11-12T19:39:12.765-06:00  INFO 17928 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-12T19:39:12.770-06:00  INFO 17928 --- [Fourj] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-12T19:41:13.187-06:00  INFO 12728 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Starting FourjApplication using Java 23.0.2 with PID 12728 (D:\SpringBoot Practise\Resilience\Fourj\target\classes started by swarn in D:\SpringBoot Practise\Resilience\Fourj)
+2025-11-12T19:41:13.187-06:00 DEBUG 12728 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2025-11-12T19:41:13.187-06:00  INFO 12728 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-12T19:41:15.267-06:00  INFO 12728 --- [Fourj] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c4c68b8f-926a-3968-aab1-d9e6874c8ee5
+2025-11-12T19:41:16.298-06:00  INFO 12728 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-12T19:41:16.311-06:00  INFO 12728 --- [Fourj] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-12T19:41:16.311-06:00  INFO 12728 --- [Fourj] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-12T19:41:16.367-06:00  INFO 12728 --- [Fourj] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-12T19:41:16.368-06:00  INFO 12728 --- [Fourj] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3085 ms
+2025-11-12T19:41:19.521-06:00  INFO 12728 --- [Fourj] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-11-12T19:41:19.640-06:00  INFO 12728 --- [Fourj] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-12T19:41:19.673-06:00  INFO 12728 --- [Fourj] [main] com.Resilience4.Fourj.FourjApplication   : Started FourjApplication in 7.308 seconds (process running for 8.057)
+2025-11-12T19:41:22.193-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-12T19:41:22.194-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-12T19:41:22.195-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-12T19:41:22.272-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-2] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:41:22.272006500 here and this the hit 1
+2025-11-12T19:41:29.486-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-3] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:41:29.486544200 here and this the hit 2
+2025-11-12T19:48:47.512-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-6] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:48:47.512023100 here and this the hit 3
+2025-11-12T19:48:57.179-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-7] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:48:57.179770800 here and this the hit 4
+2025-11-12T19:49:08.063-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-8] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:49:08.063095400 here and this the hit 5
+2025-11-12T19:49:15.214-06:00  INFO 12728 --- [Fourj] [http-nio-8080-exec-9] c.R.Fourj.Service.UserServiceClient      : Application has been Hitted 2025-11-12T19:49:15.214919800 here and this the hit 6
+2025-11-12T19:49:19.148-06:00  INFO 12728 --- [Fourj] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete

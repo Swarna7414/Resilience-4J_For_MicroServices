@@ -20,9 +20,42 @@ resilience4j:
     instances:
       externalServiceCB:
         base-config: default
+  retry:
+    instances:
+      externalServiceRetry:
+        max-attempts: 3
+        wait-duration: 500ms
+        enable-exponential-backoff: true
+        retry-exceptions:
+          - org.springframework.web.client.ResourceAccessException
+          - org.springframework.web.client.HttpServerErrorException
+        ignore-exceptions:
+          - org.springframework.web.client.HttpClientErrorException
+  timelimiter:
+    instances:
+      externalServiceTL:
+        timeout-duration: 2s
+        cancel-running-future: true
+  rateLimiter:
+    instances:
+      externalServiceRL:
+        limit-for-period: 5
+        limit-refresh-period: 1s
+        timeout-duration: 0
 
 
 logging:
   level:
     com.Resilience4.Fourj: DEBUG
     io.github.resilience4j: INFO
+  file:
+    name: logs/FourJ
+
+ServiceA:
+  base-url: "http://localhost:8081/serviceA/"
+
+ServiceB:
+  base-url: "http://localhost:8082/serviceB/"
+
+resilience4j.circuitbreaker.aspect.order: 399
+resilience4j.retry.aspect.order: 400
