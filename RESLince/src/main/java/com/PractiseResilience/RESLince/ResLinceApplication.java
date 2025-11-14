@@ -1,0 +1,13 @@
+package com.PractiseResilience.RESLince;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ResLinceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ResLinceApplication.class, args);
+	}
+
+}

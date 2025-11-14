@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: RESLince
+
+server:
+  port: 8080
+
+
+
+management:
+  health:
+    circuitbreakers:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+
+
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      BreakerA:
+        registerHealthIndicator: true      # Exposes circuit breaker status in /actuator/health
+        eventConsumerBufferSize: 10        # Stores the last 10 circuit breaker events for monitoring
+        failureRateThreshold: 50           # Circuit opens if >=50% of the calls fail
+        minimumNumberOfCalls: 5            # Minimum calls before failure rate is calculated
+        automaticTransitionFromOpenToHalfOpenEnabled: true    # Auto move from OPEN to HALF_OPEN after waitDuration
+        waitDurationInOpenState: 5s                           # Stay OPEN for 5 seconds before trying HALF_OPEN state
+        permittedNumberOfCallsInHalfOpenState: 3              # Allow 3 trial calls in HALF_OPEN state
+        slidingWindowSize: 10                                 # Evaluate the last 10 calls for failure percentage
+        slidingWindowType: COUNT_BASED                        # Based on number of calls (not time-based)
+
+  retry:
+    instances:
+      BreakerA:
+        registerHealthIndicator: true
+        maxRetryAttempts: 3                           #Max attempts is 3 (one orgnial + 2 retry)
+        waitDuration: 6s                              #3 attempts in three seconds
+
+  ratelimiter:
+    instances:
+      BreakerA:
+        registerHealthIndicator: false
+        limitForPeriod: 10                              #number of Request allowed in specific time
+        limitRefreshPeriod: 10s                         # specific Time (10 Sec)
+        timeoutDuration: 3s                             #refresh time
