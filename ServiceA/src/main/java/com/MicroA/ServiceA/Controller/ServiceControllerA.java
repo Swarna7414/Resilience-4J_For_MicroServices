@@ -15,7 +15,7 @@ import java.util.Map;
 @RequestMapping("/serviceA")
 public class ServiceControllerA {
 
-    private Integer hit;
+    private Integer hit=0;
 
     private static final Logger logger = LoggerFactory.getLogger(ServiceControllerA.class);
 
@@ -24,7 +24,7 @@ public class ServiceControllerA {
         Integer hitM=0;
         hit++;
         hitM++;
-        logger.info("THis is the Hit one {} with method hit {} , with name {}, age {}",hit++,hitM,name,age);
+        logger.info("THis is the Hit one {} with method hit {} , with name {}, age {}",hit,hitM,name,age);
         return Map.of(
                 "name",name,
                 "age",age
