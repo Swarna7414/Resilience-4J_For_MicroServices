@@ -1,45 +1,60 @@
-2025-11-15T01:40:52.404-06:00  INFO 12360 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 12360 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-15T01:40:52.412-06:00  INFO 12360 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-15T01:40:54.050-06:00  INFO 12360 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-15T01:40:54.071-06:00  INFO 12360 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-15T01:40:54.072-06:00  INFO 12360 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-15T01:40:54.136-06:00  INFO 12360 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-15T01:40:54.137-06:00  INFO 12360 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1602 ms
-2025-11-15T01:40:54.781-06:00  INFO 12360 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-15T01:40:54.794-06:00  INFO 12360 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 3.513 seconds (process running for 4.992)
-2025-11-15T01:44:35.004-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-15T01:44:35.005-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-15T01:44:35.006-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-15T01:44:35.040-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
-2025-11-15T02:05:36.155-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 4 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.155-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.155-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.155-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.156-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 7 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.157-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 8 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.155-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.156-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 5 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.156-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 6 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.159-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 9 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.308-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 10 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.308-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 10 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.309-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 11 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.310-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 12 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.311-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 14 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.310-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.313-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 16 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.312-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 15 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.314-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 17 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.318-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 20 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.318-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 21 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.322-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 22 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.322-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 22 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.323-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 23 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.316-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 18 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.326-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 24 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.326-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 25 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.329-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 26 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.317-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 19 with method hit 1 , with name user1, age 21
-2025-11-15T02:05:36.331-06:00  INFO 12360 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 27 with method hit 1 , with name user1, age 21
-2025-11-15T02:06:32.832-06:00  INFO 12360 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-15T02:06:32.836-06:00  INFO 12360 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-16T00:13:48.847-06:00  INFO 7000 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 7000 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
+2025-11-16T00:13:48.855-06:00  INFO 7000 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-11-16T00:13:50.190-06:00  INFO 7000 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-16T00:13:50.213-06:00  INFO 7000 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-16T00:13:50.225-06:00  INFO 7000 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-16T00:13:50.274-06:00  INFO 7000 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-16T00:13:50.274-06:00  INFO 7000 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+2025-11-16T00:13:50.872-06:00  INFO 7000 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-16T00:13:50.891-06:00  INFO 7000 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 3.0 seconds (process running for 3.551)
+2025-11-16T00:29:43.763-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16T00:29:43.763-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-16T00:29:43.766-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-16T00:29:43.834-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 5 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 4 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.409-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 6 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.409-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 7 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.410-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 8 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.411-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 9 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.412-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 10 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.413-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 11 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.604-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.604-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.605-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 14 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.605-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 15 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.606-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 17 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.606-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 16 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.607-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 18 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.604-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 12 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.609-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 19 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.616-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 21 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.616-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 20 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.616-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 21 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.618-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 22 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.618-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 23 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.623-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 24 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.624-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 25 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.626-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 26 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.628-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 27 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.633-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 28 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.633-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 29 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.557-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 30 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.663-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 31 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.673-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 32 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.680-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 33 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.690-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 34 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:49.915-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 35 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.040-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 36 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.050-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 37 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.056-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-11] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 38 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.064-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 39 with method hit 1 , with name user1, age 21
+2025-11-16T00:51:17.180-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 40 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.303-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 41 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.311-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 42 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.317-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 43 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.324-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 44 with method hit 1 , with name user2, age 22
+2025-11-16T00:52:06.864-06:00  INFO 7000 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-16T00:52:06.872-06:00  INFO 7000 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

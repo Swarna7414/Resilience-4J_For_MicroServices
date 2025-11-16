@@ -47,6 +47,34 @@ public class ResController {
 
     }
 
+    @GetMapping("/limitrate")
+    public ResponseEntity<Map<String, Object>> hitRateLimit(@RequestParam String name, @RequestParam Integer age){
+
+        Map<String, Object> map = webClientService.RateLimit(name,age);
+
+        return ResponseEntity.ok(map);
+
+    }
+
+    @GetMapping("/testrate")
+    public String testRateLimit() throws InterruptedException{
+        List<Map<String, Object>> futures = new ArrayList<>();
+
+        for (int i=0; i<=50; i++){
+            int n=1;
+            n++;
+            Map<String, Object> f = webClientService.RateLimit("user"+n,20+n);
+
+            futures.add(f);
+        }
+
+        futures.forEach(n->{
+            System.out.println(n);
+        });
+
+        return "DOne ra pumka";
+    }
+
 
     @GetMapping("/testbulkhead")
     public String getA() throws InterruptedException{

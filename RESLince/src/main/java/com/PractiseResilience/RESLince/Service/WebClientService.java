@@ -1,9 +1,11 @@
 package com.PractiseResilience.RESLince.Service;
 
 import io.github.resilience4j.bulkhead.annotation.Bulkhead;
+import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -17,6 +19,8 @@ public class WebClientService {
 
 
     private static final String cBulkHead = "BulkHeadA";
+
+    private static final String CrateName = "BreakerA";
 
     private static final Logger logger = LoggerFactory.getLogger(WebClientService.class);
 
@@ -38,6 +42,36 @@ public class WebClientService {
 
 
         return CompletableFuture.completedFuture(map);
+    }
+
+
+    @RateLimiter(name = CrateName, fallbackMethod = "RateFallBack")
+    public Map<String, Object> RateLimit(String name, Integer age){
+
+        counter.set(0);
+
+        logger.info("This is the count {}",counter.getAndIncrement());
+
+        return webClient.get().uri(uriBuilder -> uriBuilder.path("/get").queryParam("name",name).queryParam("age",age).build())
+                .retrieve().bodyToMono(new ParameterizedTypeReference<Map<String, Object>>() {}).block();
+
+    }
+
+
+    public Map<String, Object> RateFallBack(String name, Integer age, Throwable throwable){
+
+        String reason = throwable !=null ? throwable.getClass().getSimpleName() : "Unkown Error";
+
+        logger.info("This is a Fallback Method with name {} and age {} ,reason {} ",name,age,reason);
+
+        return Map.of(
+                "message","TO many Requests for the Service A please Try again Later",
+                "httpStatus",429,
+                "name",name,
+                "age",age,
+                "reason",reason
+        );
+
     }
 
 

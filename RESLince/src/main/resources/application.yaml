@@ -20,7 +20,6 @@ management:
       show-details: always
 
 
-
 resilience4j:
   circuitbreaker:
     instances:
@@ -42,13 +41,13 @@ resilience4j:
         maxRetryAttempts: 3                           #Max attempts is 3 (one orgnial + 2 retry)
         waitDuration: 6s                              #3 attempts in three seconds
 
-  ratelimiter:
-    instances:
-      BreakerA:
-        registerHealthIndicator: false
-        limitForPeriod: 10                              #number of Request allowed in specific time
-        limitRefreshPeriod: 10s                         # specific Time (10 Sec)
-        timeoutDuration: 3s                             #refresh time
+#  ratelimiter:
+#    instances:
+#      BreakerA:
+#        registerHealthIndicator: false
+#        limitForPeriod: 10                              #number of Request allowed in specific time
+#        limitRefreshPeriod: 10s                         # specific Time (10 Sec)
+#        timeoutDuration: 3s                             #refresh time
 
   thread-pool-bulkhead:
     instances:
@@ -56,3 +55,10 @@ resilience4j:
         coreThreadPoolSize: 5                      # minimum number of threads
         maxThreadPoolSize: 10                      # maximum number of threads
         queueCapacity: 20                          # 20 calls can wait in queue
+
+  ratelimiter:
+    instances:
+      BreakerA:
+        limit-for-period: 5                         # allow only 5 calls
+        limit-refresh-period: 10s                   # every 10 seconds
+        timeout-duration: 0                         # 0 = don't wait, just fail fast
