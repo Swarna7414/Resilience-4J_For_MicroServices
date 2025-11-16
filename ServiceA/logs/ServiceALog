@@ -1,139 +1,60 @@
-2025-11-14T00:16:00.784-06:00  INFO 22824 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T00:16:00.804-06:00  INFO 22824 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-14T00:16:04.534-06:00  INFO 6372 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 6372 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-14T00:16:04.536-06:00  INFO 6372 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-14T00:16:05.860-06:00  INFO 6372 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-14T00:16:05.879-06:00  INFO 6372 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-14T00:16:05.880-06:00  INFO 6372 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-14T00:16:05.916-06:00  INFO 6372 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-14T00:16:05.916-06:00  INFO 6372 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1278 ms
-2025-11-14T00:16:06.388-06:00  INFO 6372 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-14T00:16:06.399-06:00  INFO 6372 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 2.502 seconds (process running for 2.965)
-2025-11-14T00:21:31.078-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-14T00:21:31.079-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-14T00:21:31.080-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-14T00:21:31.181-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : This is the Hit one 1 with method hit 1 with map {name=preethi, husband name=Sai Sankar, age=24}
-2025-11-14T00:21:32.846-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : This is the Hit one 2 with method hit 1 with map {name=preethi, husband name=Sai Sankar, age=24}
-2025-11-14T00:21:45.410-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : This is the Hit one 3 with method hit 1 with map {name=Samreen, husband name=Sai Sankar, age=26}
-2025-11-14T00:21:53.733-06:00  INFO 6372 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : This is the Hit one 4 with method hit 1 with map {name=Sai Likitha, husband name=Sai Sankar, age=26}
-2025-11-14T00:22:00.420-06:00  INFO 6372 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T00:22:00.426-06:00  INFO 6372 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-14T00:25:24.447-06:00  INFO 9612 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 9612 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-14T00:25:24.450-06:00  INFO 9612 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-14T00:25:25.771-06:00  INFO 9612 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-14T00:25:25.789-06:00  INFO 9612 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-14T00:25:25.790-06:00  INFO 9612 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-14T00:25:25.840-06:00  INFO 9612 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-14T00:25:25.840-06:00  INFO 9612 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1300 ms
-2025-11-14T00:25:26.307-06:00  INFO 9612 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-14T00:25:26.317-06:00  INFO 9612 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 2.511 seconds (process running for 3.022)
-2025-11-14T00:26:04.188-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-14T00:26:04.189-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-14T00:26:04.190-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-14T00:26:04.241-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:26:05.336-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:26:06.528-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:26:07.447-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 4 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:26:08.137-06:00  INFO 9612 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 5 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:26:13.865-06:00  INFO 9612 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T00:26:13.874-06:00  INFO 9612 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-14T00:27:44.354-06:00  INFO 12844 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 12844 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-14T00:27:44.358-06:00  INFO 12844 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-14T00:27:45.575-06:00  INFO 12844 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-14T00:27:45.588-06:00  INFO 12844 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-14T00:27:45.588-06:00  INFO 12844 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-14T00:27:45.626-06:00  INFO 12844 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-14T00:27:45.628-06:00  INFO 12844 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1192 ms
-2025-11-14T00:27:46.081-06:00  INFO 12844 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-14T00:27:46.089-06:00  INFO 12844 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 2.368 seconds (process running for 2.816)
-2025-11-14T00:27:59.125-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-14T00:27:59.126-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-14T00:27:59.127-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-14T00:27:59.172-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:28:00.593-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:28:06.518-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:28:09.606-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 4 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:28:10.660-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 5 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:28:11.611-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 6 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:45:08.076-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 7 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:45:09.200-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 8 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:45:11.566-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 9 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:45:18.704-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 10 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:45:22.487-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 11 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:48:08.191-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 12 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:48:11.598-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:48:16.529-06:00  INFO 12844 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 14 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:48:46.561-06:00  INFO 12844 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T00:48:46.564-06:00  INFO 12844 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-14T00:56:09.892-06:00  INFO 17248 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 17248 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-14T00:56:09.894-06:00  INFO 17248 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-14T00:56:11.381-06:00  INFO 17248 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-14T00:56:11.397-06:00  INFO 17248 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-14T00:56:11.398-06:00  INFO 17248 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-14T00:56:11.463-06:00  INFO 17248 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-14T00:56:11.463-06:00  INFO 17248 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
-2025-11-14T00:56:12.012-06:00  INFO 17248 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-14T00:56:12.023-06:00  INFO 17248 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 2.957 seconds (process running for 3.527)
-2025-11-14T00:57:56.421-06:00  INFO 17248 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-14T00:57:56.421-06:00  INFO 17248 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-14T00:57:56.422-06:00  INFO 17248 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-14T00:57:56.469-06:00  INFO 17248 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:57:59.050-06:00  INFO 17248 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:58:00.390-06:00  INFO 17248 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:58:06.707-06:00  INFO 17248 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T00:58:06.712-06:00  INFO 17248 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-14T00:58:44.891-06:00  INFO 22724 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 22724 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-14T00:58:44.894-06:00  INFO 22724 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-14T00:58:46.300-06:00  INFO 22724 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-14T00:58:46.318-06:00  INFO 22724 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-14T00:58:46.318-06:00  INFO 22724 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-14T00:58:46.372-06:00  INFO 22724 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-14T00:58:46.373-06:00  INFO 22724 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1372 ms
-2025-11-14T00:58:46.932-06:00  INFO 22724 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-14T00:58:46.955-06:00  INFO 22724 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 2.851 seconds (process running for 3.405)
-2025-11-14T00:58:58.876-06:00  INFO 22724 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-14T00:58:58.877-06:00  INFO 22724 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-14T00:58:58.878-06:00  INFO 22724 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-14T00:58:58.933-06:00  INFO 22724 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:59:00.499-06:00  INFO 22724 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:59:02.082-06:00  INFO 22724 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name Swarna, age 25
-2025-11-14T00:59:03.025-06:00  INFO 22724 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T00:59:03.030-06:00  INFO 22724 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-14T01:07:47.336-06:00  INFO 1996 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 1996 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
-2025-11-14T01:07:47.338-06:00  INFO 1996 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
-2025-11-14T01:07:48.552-06:00  INFO 1996 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
-2025-11-14T01:07:48.569-06:00  INFO 1996 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-14T01:07:48.570-06:00  INFO 1996 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-14T01:07:48.639-06:00  INFO 1996 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-14T01:07:48.640-06:00  INFO 1996 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1208 ms
-2025-11-14T01:07:49.133-06:00  INFO 1996 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
-2025-11-14T01:07:49.144-06:00  INFO 1996 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 2.478 seconds (process running for 2.95)
-2025-11-14T01:08:33.650-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-14T01:08:33.651-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-14T01:08:33.652-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-14T01:08:33.714-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:25.813-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:26.600-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:27.537-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 4 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:28.361-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 5 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:29.167-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 6 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:29.971-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 7 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:30.889-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 8 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:31.702-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 9 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:32.479-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 10 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:33.230-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 11 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:33.957-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 12 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:35.303-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:37.267-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 14 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:40.953-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 15 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:41.593-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 16 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:42.196-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 17 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:42.779-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 18 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:43.357-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 19 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:43.903-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 20 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:44.681-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 21 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:45.366-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 22 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:45.981-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 23 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:10:47.266-06:00  INFO 1996 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 24 with method hit 1 , with name Swarna, age 25
-2025-11-14T01:14:05.717-06:00  INFO 1996 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-14T01:14:05.725-06:00  INFO 1996 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-16T00:13:48.847-06:00  INFO 7000 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Starting ServiceAApplication using Java 23.0.2 with PID 7000 (D:\SpringBoot Practise\Resilience\ServiceA\target\classes started by swarn in D:\SpringBoot Practise\Resilience\ServiceA)
+2025-11-16T00:13:48.855-06:00  INFO 7000 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-11-16T00:13:50.190-06:00  INFO 7000 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-11-16T00:13:50.213-06:00  INFO 7000 --- [ServiceA] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-16T00:13:50.225-06:00  INFO 7000 --- [ServiceA] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-16T00:13:50.274-06:00  INFO 7000 --- [ServiceA] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-16T00:13:50.274-06:00  INFO 7000 --- [ServiceA] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1294 ms
+2025-11-16T00:13:50.872-06:00  INFO 7000 --- [ServiceA] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2025-11-16T00:13:50.891-06:00  INFO 7000 --- [ServiceA] [main] c.MicroA.ServiceA.ServiceAApplication    : Started ServiceAApplication in 3.0 seconds (process running for 3.551)
+2025-11-16T00:29:43.763-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-16T00:29:43.763-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-16T00:29:43.766-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-16T00:29:43.834-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 1 with method hit 1 , with name Swarna, age 25
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 2 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 5 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 4 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.407-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 3 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.409-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 6 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.409-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 7 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.410-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 8 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.411-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 9 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.412-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 10 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.413-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 11 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.604-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.604-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 13 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.605-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 14 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.605-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 15 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.606-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-5] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 17 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.606-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 16 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.607-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 18 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.604-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 12 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.609-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 19 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.616-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 21 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.616-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 20 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.616-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 21 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.618-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 22 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.618-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 23 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.623-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 24 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.624-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 25 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.626-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 26 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.628-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 27 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.633-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 28 with method hit 1 , with name user1, age 21
+2025-11-16T00:46:01.633-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 29 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.557-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-7] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 30 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.663-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-6] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 31 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.673-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 32 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.680-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 33 with method hit 1 , with name user1, age 21
+2025-11-16T00:47:58.690-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 34 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:49.915-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 35 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.040-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 36 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.050-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-2] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 37 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.056-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-11] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 38 with method hit 1 , with name user1, age 21
+2025-11-16T00:49:50.064-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-10] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 39 with method hit 1 , with name user1, age 21
+2025-11-16T00:51:17.180-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-8] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 40 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.303-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-3] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 41 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.311-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-9] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 42 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.317-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-4] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 43 with method hit 1 , with name user2, age 22
+2025-11-16T00:51:17.324-06:00  INFO 7000 --- [ServiceA] [http-nio-8081-exec-1] c.M.S.Controller.ServiceControllerA      : THis is the Hit one 44 with method hit 1 , with name user2, age 22
+2025-11-16T00:52:06.864-06:00  INFO 7000 --- [ServiceA] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-16T00:52:06.872-06:00  INFO 7000 --- [ServiceA] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
