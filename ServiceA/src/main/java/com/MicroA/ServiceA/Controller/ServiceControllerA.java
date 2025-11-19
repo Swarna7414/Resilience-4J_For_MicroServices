@@ -35,7 +35,7 @@ public class ServiceControllerA {
         Integer hitM=0;
         hit++;
         hitM++;
-        logger.info("THis is the Hitone {} with method hit {} with name {}",hit,hitM,name);
+        logger.info("THis is the Hitone {} with method hit {} with name {} with parameter",hit,hitM,name);
         return "Method Hit ayindi ra pumka "+name;
     }
 
